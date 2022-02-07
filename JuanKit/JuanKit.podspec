@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JuanKit"
-  spec.version      = "1"
+  spec.version      = "0.1.0"
   spec.summary      = "A short description of JuanKit."
 
   
