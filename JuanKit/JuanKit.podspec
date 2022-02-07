@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JuanKit"
-  spec.version      = "0.1.0"
+  spec.version      = "1"
   spec.summary      = "A short description of JuanKit."
 
   
@@ -46,7 +46,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jiangjiangyouyou/Cocoapods_Test.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/jiangjiangyouyou/Cocoapods_Test.git", :tag => "1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
