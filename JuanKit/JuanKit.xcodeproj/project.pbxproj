@@ -7,85 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BADD9D4527B120D600304444 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD9D4427B120D600304444 /* AppDelegate.m */; };
-		BADD9D4827B120D600304444 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD9D4727B120D600304444 /* SceneDelegate.m */; };
-		BADD9D4B27B120D600304444 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD9D4A27B120D600304444 /* ViewController.m */; };
-		BADD9D4E27B120D600304444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADD9D4C27B120D600304444 /* Main.storyboard */; };
-		BADD9D5027B120D800304444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADD9D4F27B120D800304444 /* Assets.xcassets */; };
-		BADD9D5327B120D800304444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADD9D5127B120D800304444 /* LaunchScreen.storyboard */; };
-		BADD9D5627B120D800304444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD9D5527B120D800304444 /* main.m */; };
+		258FB637B5E458ACDD83BBDD /* Pods_JuanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A976602B5E493BA04B64EC /* Pods_JuanKit.framework */; };
+		BAB132EA27B125CA0099BCED /* rr.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB132E827B125CA0099BCED /* rr.h */; };
+		BAB132EB27B125CA0099BCED /* rr.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB132E927B125CA0099BCED /* rr.m */; };
+		BAC0DF5427B12533000D77CA /* JuanKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = BAC0DF5327B12533000D77CA /* JuanKit.docc */; };
+		BAC0DF5527B12533000D77CA /* JuanKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC0DF5227B12533000D77CA /* JuanKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BADD9D4027B120D600304444 /* JuanKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuanKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BADD9D4327B120D600304444 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BADD9D4427B120D600304444 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BADD9D4627B120D600304444 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BADD9D4727B120D600304444 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BADD9D4927B120D600304444 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BADD9D4A27B120D600304444 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BADD9D4D27B120D600304444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BADD9D4F27B120D800304444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BADD9D5227B120D800304444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BADD9D5427B120D800304444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BADD9D5527B120D800304444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B6D416FE9B07AD2C165A05A /* Pods-JuanKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuanKit.release.xcconfig"; path = "Target Support Files/Pods-JuanKit/Pods-JuanKit.release.xcconfig"; sourceTree = "<group>"; };
+		A5A976602B5E493BA04B64EC /* Pods_JuanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB132E827B125CA0099BCED /* rr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rr.h; sourceTree = "<group>"; };
+		BAB132E927B125CA0099BCED /* rr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rr.m; sourceTree = "<group>"; };
+		BAC0DF4F27B12533000D77CA /* JuanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC0DF5227B12533000D77CA /* JuanKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuanKit.h; sourceTree = "<group>"; };
+		BAC0DF5327B12533000D77CA /* JuanKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JuanKit.docc; sourceTree = "<group>"; };
+		C2499451A78EE1FAECFF9DF6 /* Pods-JuanKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuanKit.debug.xcconfig"; path = "Target Support Files/Pods-JuanKit/Pods-JuanKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BADD9D3D27B120D600304444 /* Frameworks */ = {
+		BAC0DF4C27B12533000D77CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258FB637B5E458ACDD83BBDD /* Pods_JuanKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BADD9D3727B120D600304444 = {
+		7811B772FBA3D41B121A2BFA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BADD9D4227B120D600304444 /* JuanKit */,
-				BADD9D4127B120D600304444 /* Products */,
+				C2499451A78EE1FAECFF9DF6 /* Pods-JuanKit.debug.xcconfig */,
+				5B6D416FE9B07AD2C165A05A /* Pods-JuanKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAB132E727B1259B0099BCED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BAB132E827B125CA0099BCED /* rr.h */,
+				BAB132E927B125CA0099BCED /* rr.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BAC0DF4527B12533000D77CA = {
+			isa = PBXGroup;
+			children = (
+				BAC0DF5127B12533000D77CA /* JuanKit */,
+				BAC0DF5027B12533000D77CA /* Products */,
+				7811B772FBA3D41B121A2BFA /* Pods */,
+				DD15B8B82DD248E532190905 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		BADD9D4127B120D600304444 /* Products */ = {
+		BAC0DF5027B12533000D77CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BADD9D4027B120D600304444 /* JuanKit.app */,
+				BAC0DF4F27B12533000D77CA /* JuanKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BADD9D4227B120D600304444 /* JuanKit */ = {
+		BAC0DF5127B12533000D77CA /* JuanKit */ = {
 			isa = PBXGroup;
 			children = (
-				BADD9D4327B120D600304444 /* AppDelegate.h */,
-				BADD9D4427B120D600304444 /* AppDelegate.m */,
-				BADD9D4627B120D600304444 /* SceneDelegate.h */,
-				BADD9D4727B120D600304444 /* SceneDelegate.m */,
-				BADD9D4927B120D600304444 /* ViewController.h */,
-				BADD9D4A27B120D600304444 /* ViewController.m */,
-				BADD9D4C27B120D600304444 /* Main.storyboard */,
-				BADD9D4F27B120D800304444 /* Assets.xcassets */,
-				BADD9D5127B120D800304444 /* LaunchScreen.storyboard */,
-				BADD9D5427B120D800304444 /* Info.plist */,
-				BADD9D5527B120D800304444 /* main.m */,
+				BAC0DF5227B12533000D77CA /* JuanKit.h */,
+				BAB132E727B1259B0099BCED /* Classes */,
+				BAC0DF5327B12533000D77CA /* JuanKit.docc */,
 			);
 			path = JuanKit;
 			sourceTree = "<group>";
 		};
+		DD15B8B82DD248E532190905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A976602B5E493BA04B64EC /* Pods_JuanKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BAC0DF4A27B12533000D77CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB132EA27B125CA0099BCED /* rr.h in Headers */,
+				BAC0DF5527B12533000D77CA /* JuanKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		BADD9D3F27B120D600304444 /* JuanKit */ = {
+		BAC0DF4E27B12533000D77CA /* JuanKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BADD9D5927B120D800304444 /* Build configuration list for PBXNativeTarget "JuanKit" */;
+			buildConfigurationList = BAC0DF5827B12533000D77CA /* Build configuration list for PBXNativeTarget "JuanKit" */;
 			buildPhases = (
-				BADD9D3C27B120D600304444 /* Sources */,
-				BADD9D3D27B120D600304444 /* Frameworks */,
-				BADD9D3E27B120D600304444 /* Resources */,
+				9C7C5B9F19F7FC8FD7DE5A90 /* [CP] Check Pods Manifest.lock */,
+				BAC0DF4A27B12533000D77CA /* Headers */,
+				BAC0DF4B27B12533000D77CA /* Sources */,
+				BAC0DF4C27B12533000D77CA /* Frameworks */,
+				BAC0DF4D27B12533000D77CA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -93,24 +122,24 @@
 			);
 			name = JuanKit;
 			productName = JuanKit;
-			productReference = BADD9D4027B120D600304444 /* JuanKit.app */;
-			productType = "com.apple.product-type.application";
+			productReference = BAC0DF4F27B12533000D77CA /* JuanKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BADD9D3827B120D600304444 /* Project object */ = {
+		BAC0DF4627B12533000D77CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					BADD9D3F27B120D600304444 = {
+					BAC0DF4E27B12533000D77CA = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = BADD9D3B27B120D600304444 /* Build configuration list for PBXProject "JuanKit" */;
+			buildConfigurationList = BAC0DF4927B12533000D77CA /* Build configuration list for PBXProject "JuanKit" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,64 +147,65 @@
 				en,
 				Base,
 			);
-			mainGroup = BADD9D3727B120D600304444;
-			productRefGroup = BADD9D4127B120D600304444 /* Products */;
+			mainGroup = BAC0DF4527B12533000D77CA;
+			productRefGroup = BAC0DF5027B12533000D77CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BADD9D3F27B120D600304444 /* JuanKit */,
+				BAC0DF4E27B12533000D77CA /* JuanKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BADD9D3E27B120D600304444 /* Resources */ = {
+		BAC0DF4D27B12533000D77CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BADD9D5327B120D800304444 /* LaunchScreen.storyboard in Resources */,
-				BADD9D5027B120D800304444 /* Assets.xcassets in Resources */,
-				BADD9D4E27B120D600304444 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C7C5B9F19F7FC8FD7DE5A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JuanKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		BADD9D3C27B120D600304444 /* Sources */ = {
+		BAC0DF4B27B12533000D77CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BADD9D4B27B120D600304444 /* ViewController.m in Sources */,
-				BADD9D4527B120D600304444 /* AppDelegate.m in Sources */,
-				BADD9D5627B120D800304444 /* main.m in Sources */,
-				BADD9D4827B120D600304444 /* SceneDelegate.m in Sources */,
+				BAC0DF5427B12533000D77CA /* JuanKit.docc in Sources */,
+				BAB132EB27B125CA0099BCED /* rr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		BADD9D4C27B120D600304444 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BADD9D4D27B120D600304444 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BADD9D5127B120D800304444 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BADD9D5227B120D800304444 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		BADD9D5727B120D800304444 /* Debug */ = {
+		BAC0DF5627B12533000D77CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,6 +239,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -231,10 +262,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BADD9D5827B120D800304444 /* Release */ = {
+		BAC0DF5727B12533000D77CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,6 +301,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -284,85 +318,87 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BADD9D5A27B120D800304444 /* Debug */ = {
+		BAC0DF5927B12533000D77CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2499451A78EE1FAECFF9DF6 /* Pods-JuanKit.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JuanKit/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ad.suyi.test.demo.JuanKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BADD9D5B27B120D800304444 /* Release */ = {
+		BAC0DF5A27B12533000D77CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6D416FE9B07AD2C165A05A /* Pods-JuanKit.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JuanKit/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ad.suyi.test.demo.JuanKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BADD9D3B27B120D600304444 /* Build configuration list for PBXProject "JuanKit" */ = {
+		BAC0DF4927B12533000D77CA /* Build configuration list for PBXProject "JuanKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BADD9D5727B120D800304444 /* Debug */,
-				BADD9D5827B120D800304444 /* Release */,
+				BAC0DF5627B12533000D77CA /* Debug */,
+				BAC0DF5727B12533000D77CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BADD9D5927B120D800304444 /* Build configuration list for PBXNativeTarget "JuanKit" */ = {
+		BAC0DF5827B12533000D77CA /* Build configuration list for PBXNativeTarget "JuanKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BADD9D5A27B120D800304444 /* Debug */,
-				BADD9D5B27B120D800304444 /* Release */,
+				BAC0DF5927B12533000D77CA /* Debug */,
+				BAC0DF5A27B12533000D77CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BADD9D3827B120D600304444 /* Project object */;
+	rootObject = BAC0DF4627B12533000D77CA /* Project object */;
 }
