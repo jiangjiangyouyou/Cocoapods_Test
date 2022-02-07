@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface rr : NSObject
-
+-(void)speck;
 @end
 
 NS_ASSUME_NONNULL_END

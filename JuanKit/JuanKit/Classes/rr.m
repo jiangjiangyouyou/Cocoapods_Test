@@ -8,5 +8,7 @@
 #import "rr.h"
 
 @implementation rr
-
+-(void)speck{
+    NSLog(@"我不信，快出来");
+}
 @end
