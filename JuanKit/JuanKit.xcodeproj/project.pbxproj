@@ -11,7 +11,6 @@
 		BAB132EA27B125CA0099BCED /* rr.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB132E827B125CA0099BCED /* rr.h */; };
 		BAB132EB27B125CA0099BCED /* rr.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB132E927B125CA0099BCED /* rr.m */; };
 		BAC0DF5427B12533000D77CA /* JuanKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = BAC0DF5327B12533000D77CA /* JuanKit.docc */; };
-		BAC0DF5527B12533000D77CA /* JuanKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC0DF5227B12533000D77CA /* JuanKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		BAB132E827B125CA0099BCED /* rr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rr.h; sourceTree = "<group>"; };
 		BAB132E927B125CA0099BCED /* rr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rr.m; sourceTree = "<group>"; };
 		BAC0DF4F27B12533000D77CA /* JuanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAC0DF5227B12533000D77CA /* JuanKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuanKit.h; sourceTree = "<group>"; };
 		BAC0DF5327B12533000D77CA /* JuanKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JuanKit.docc; sourceTree = "<group>"; };
 		C2499451A78EE1FAECFF9DF6 /* Pods-JuanKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuanKit.debug.xcconfig"; path = "Target Support Files/Pods-JuanKit/Pods-JuanKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +74,6 @@
 		BAC0DF5127B12533000D77CA /* JuanKit */ = {
 			isa = PBXGroup;
 			children = (
-				BAC0DF5227B12533000D77CA /* JuanKit.h */,
 				BAB132E727B1259B0099BCED /* Classes */,
 				BAC0DF5327B12533000D77CA /* JuanKit.docc */,
 			);
@@ -99,7 +96,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB132EA27B125CA0099BCED /* rr.h in Headers */,
-				BAC0DF5527B12533000D77CA /* JuanKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
